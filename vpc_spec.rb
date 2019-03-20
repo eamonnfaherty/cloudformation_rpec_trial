@@ -1,3 +1,5 @@
+require 'cloudformation_rspec'
+
 describe 'vpc_template' do
   let(:template_json) { File.read('fixtures/vpc.json') }
   let(:stack) {
